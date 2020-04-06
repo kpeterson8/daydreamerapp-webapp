@@ -1,9 +1,9 @@
 {
-  "name": "Saunatime",
-  "short_name": "Saunatime",
+  "name": "Day Dreamer",
+  "short_name": "Day Dreamer",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#C0392B",
+  "theme_color": "#05a379",
   "background_color": "#FFFFFF",
   "icons": [
     {
