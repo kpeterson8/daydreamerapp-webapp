@@ -8,9 +8,9 @@ import { NamedLink } from '../../components';
 
 import css from './SectionLocations.css';
 
-import helsinkiImage from './images/location_helsinki.jpg';
-import rovaniemiImage from './images/location_rovaniemi.jpg';
-import rukaImage from './images/location_ruka.jpg';
+import helsinkiImage from './images/IronCobraTV_PBR_Can_Brian Peterson_Visual Artist_Chicago.png';
+import rovaniemiImage from './images/-LcETafGwksbCQJb5cWj_Sarah Fohl_Filmmaker_Austin.jpg';
+import rukaImage from './images/-M3m7BzElb0DFVCxrasl_Cat Barrera_Illustrator_Austin.jpg';
 
 class LocationImage extends Component {
   render() {
