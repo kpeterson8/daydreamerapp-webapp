@@ -12,7 +12,7 @@ import {
 } from '../../components';
 
 import css from './AboutPage.css';
-import image from './about-us-1056.jpg';
+import image from './Day Dreamer_about-us.jpg';
 
 const AboutPage = () => {
   const { siteTwitterHandle, siteFacebookPage } = config;
@@ -35,51 +35,47 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Experience the unique Finnish home sauna.</h1>
+          <h1 className={css.pageTitle}>We believe getting hired should be easy. Let's make it happen.</h1>
           <img className={css.coverImage} src={image} alt="My first ice cream." />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Did you know that Finland has 3.2 million saunas - almost one sauna per person!</p>
+              <p>Did you know that over 80% of creatives don't price themselves correctly?</p>
             </div>
 
             <div className={css.contentMain}>
               <h2>
-                Most of the Finnish saunas are located at the homes of individuals - indeed, most
-                people in Finland live in an apartment with sauna in it. In addition, lots of people
-                have lakeside summer cottages, which also typically come with a separate sauna
-                building near the waterfront.
+                We want to make getting hired easier, faster, and more fun! We've created a system for you - reviews,
+                rates, and a full-service hiring platform.
               </h2>
 
               <p>
-                To truly experience a Finnish sauna, you need to look beyond the public saunas, and
-                instead visit a real home or cottage sauna. Saunatime makes this possible for
-                everyone. All our saunas are owned by individuals willing to let tourists and other
-                curious visitors to enter their sacred spaces.
+                As a creative professional, you want to diversify your income, which starts with having a competitive
+                rate, reviews, and a payment system that protects you. With Day Dreamer, get booked easily, chat
+                either in the portal or mobile app, and receive your payment as soon as the gig is completed.
               </p>
 
-              <h3 className={css.subtitle}>Are you a sauna owner?</h3>
+              <h3 className={css.subtitle}>So you want to make more money?</h3>
 
               <p>
-                Saunatime offers you a good way to earn some extra cash! If you're not using your
-                sauna every evening, why not rent it to other people while it's free. And even if
-                you are using your sauna every evening (we understand, it's so good), why not invite
-                other people to join you when the sauna is already warm! A shared sauna experience
-                is often a more fulfilling one.
+                Day Dreamer is made by and for creatives, but backed by data. We believe in empowering creative
+                professionals to stay competitive in their medium and local community. You can also easily import
+                your portfolio projects directly into Day Dreamer. No more uploading the same video, song, or photo
+                to multiple websites!
               </p>
 
               <h3 id="contact" className={css.subtitle}>
-                Create your own marketplace like Saunatime
+                Are you looking to hire local creatives?
               </h3>
               <p>
-                Saunatime is brought to you by the good folks at{' '}
-                <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Would you like
-                to create your own marketplace platform a bit like Saunatime? Or perhaps a mobile
-                app? With Sharetribe it's really easy. If you have a marketplace idea in mind, do
-                get in touch!
+                Day Dreamer has been helping local small businesses and other creatives hire locally since
+                2019 when we created our{' '}<ExternalLink href="https://medium.com/day-dreamer-app/dreamers-doers-a-new-way-to-hire-creatives-3de26228fc7e"
+                >Dreamers & Doers pilot</ExternalLink>, saving hirers 20-30% compared to a creative agency.
+                If you're looking for new and local, top talent, where you can save more time + money,
+                look no further - we got you!
               </p>
               <p>
-                You can also checkout our{' '}
+                Stay in touch with us at{' '}
                 <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
                 <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
               </p>
